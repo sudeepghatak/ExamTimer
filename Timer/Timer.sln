@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer.Android", "Timer\Timer.Android\Timer.Android.csproj", "{3E1AEF0F-B367-4197-9DD9-CCC71FD49A6B}"
 EndProject
@@ -158,5 +158,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EAB3BCC-A0BD-4358-B726-2F69DB3A3D9D}
 	EndGlobalSection
 EndGlobal
