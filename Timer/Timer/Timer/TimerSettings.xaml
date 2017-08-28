@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="TimerSettings"
+             x:Class="Timer.TimerSettings">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Vertical" >
+                <Label Text="Number of questions:" VerticalOptions="Center"/>
+                <Entry x:Name="entryQuestions" Text="{Binding Questions}" Keyboard="Numeric"/>
+
+            </StackLayout>
+            <StackLayout Orientation="Vertical" >
+                <Label Text="Time alloted:" VerticalOptions="Center" />
+                <Entry x:Name="entryTime" Text="{Binding Minutes}" Keyboard="Numeric"/>
+
+            </StackLayout>
+            <Button Text="Update" Command="{Binding UpdateParameters}" CommandParameter="{Binding .}"/>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
