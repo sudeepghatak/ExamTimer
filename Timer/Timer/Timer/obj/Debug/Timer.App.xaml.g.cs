@@ -11,7 +11,7 @@
 namespace Timer {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Github\\ExamTimerXamarin\\ExamTimerXamarin\\Timer\\Timer\\Timer\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Github\\ExamTimerXamarin\\ExamTimer\\Timer\\Timer\\Timer\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

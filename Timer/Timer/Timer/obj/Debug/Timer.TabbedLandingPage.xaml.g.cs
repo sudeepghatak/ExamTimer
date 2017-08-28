@@ -11,8 +11,7 @@
 namespace Timer {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Github\\ExamTimerXamarin\\ExamTimerXamarin\\Timer\\Timer\\Timer\\TabbedLandingPage.x" +
-        "aml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Github\\ExamTimerXamarin\\ExamTimer\\Timer\\Timer\\Timer\\TabbedLandingPage.xaml")]
     public partial class TabbedLandingPage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
